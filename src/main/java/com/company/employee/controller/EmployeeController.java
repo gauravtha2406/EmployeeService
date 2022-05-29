@@ -1,7 +1,7 @@
 package com.company.employee.controller;
 
 /**
- * @author Satyaa
+ * @author Gaurav
  * @see Employee Controller -> EmployeeEndpoints
  * @since February, 2022
  */

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 
- * @author Satyaa
+ * @author Gaurav
  * @see Exception Response bean file
  * @since February, 2022
  */

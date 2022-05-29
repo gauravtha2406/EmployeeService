@@ -33,9 +33,9 @@ class EmployeeServicesApplicationTests {
 	public void setUp() {
 		System.out.println("+++++++++-----------------------------------------------------------------+++++++++");
 		Optional<Employee> user = Optional
-				.of(new Employee(101, "Satya", "pass", "satyaa@gmail.com", 931728121));
+				.of(new Employee(101, "Gaurav", "pass", "Gaurav@gmail.com", 931728121));
 		List<Employee> list = Arrays
-				.asList(new Employee(101, "Satya", "pass", "satyaa@gmail.com", 931728121));
+				.asList(new Employee(101, "Gaurav", "pass", "gaurav@gmail.com", 931728121));
 
 		// mocked object
 		when(repo.findById(101)).thenReturn(user);
@@ -60,7 +60,7 @@ class EmployeeServicesApplicationTests {
 	@Test
 	@DisplayName("get Employee by there name")
 	void getEmployeeByName() {
-		List<Employee> employeeByName = service.getEmployeeByName("Satya");
+		List<Employee> employeeByName = service.getEmployeeByName("Gaurav");
 		assertNotNull(employeeByName);
 	}
 

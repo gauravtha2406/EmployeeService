@@ -2,7 +2,7 @@ package com.company.employee.exception;
 
 /**
  * 
- * @author Satyaa
+ * @author Gaurav
  * @see EmployeeNotFoundException
  * @since February, 2022
  *
